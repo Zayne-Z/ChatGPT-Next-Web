@@ -10,7 +10,7 @@ export function ModelConfigList(props: {
 }) {
   return (
     <>
-      <ListItem title={Locale.Settings.Model}>
+      <ListItem title={Locale.Settings.Model} className="disable">
         <Select
           value={props.modelConfig.model}
           onChange={(e) => {

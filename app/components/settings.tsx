@@ -351,6 +351,7 @@ export function Settings() {
           </ListItem>
 
           <ListItem
+            className="hide"
             title={Locale.Settings.Update.Version(currentVersion ?? "unknown")}
             subTitle={
               checkingUpdate

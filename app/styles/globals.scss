@@ -353,3 +353,12 @@ pre {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+.hide {
+  display: none;
+}
+
+.disable {
+  pointer-events: none;
+  cursor: not-allowed;
+}
